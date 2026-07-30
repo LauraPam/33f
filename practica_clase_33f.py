@@ -211,7 +211,7 @@ if prompt:
             
             mensajes_completos = [{"role": "system", "content": system_prompt}] + historial_previo + [{"role": "user", "content": prompt}]
             
-            cliente = Groq(api_key=st.secrets["NVIDIA_API_KEY"])
+            cliente = Groq(api_key=st.secrets["GROQ_API_KEY"])
             respuesta = cliente.chat.completions.create(
                 model="llama-3.1-8b-instant",  
                 messages=mensajes_completos,
