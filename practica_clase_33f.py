@@ -90,7 +90,7 @@ def obtener_system_prompt(nivel):
 # ------------------------------------------------------------
 with st.sidebar:
     st.title("🚀 Actividad de Clase: El Esqueleto de la Misión")
-    st.image("img/lala.jpeg", caption="Imagen Añadida Laura Pam")
+    st.image("img/cal.gif", caption="Imagen Añadida Laura Pam")
     
     st.divider()
     st.subheader("📁 Gestión de Chats")
